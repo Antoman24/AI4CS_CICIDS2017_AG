@@ -47,17 +47,31 @@ Il dataset include feature estratte dal traffico di rete tramite CICFlowMeter.
 ---
 
 
-# Struttura del progetto
+# Configurazione Dataset
+
+Per eseguire correttamente il progetto è necessario creare una cartella chiamata `data` nella directory principale del repository e inserire al suo interno tutti i file del dataset CICIDS2017.
+
+Struttura consigliata:
 
 ```text
-preprocessing.py
-train_dt.py
-train_rf.py
-train_knn.py
-train_kmeans.py
-```
-
+project/
+│
+├── data/
+│   ├── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+│   ├── Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+│   ├── Monday-WorkingHours.pcap_ISCX.csv
+│   ├── Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+│   ├── Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+│   ├── Tuesday-WorkingHours.pcap_ISCX.csv
+│   └── Wednesday-workingHours.pcap_ISCX.csv
+│
+├── preprocessing.py
+├── train_dt.py
+├── train_rf.py
+├── train_knn.py
+└── train_kmeans.py
 # Risultati
+```
 
 Gli algoritmi supervisionati hanno ottenuto performance molto elevate sul dataset, in particolare **Random Forest**, che ha mostrato il miglior equilibrio tra accuratezza, robustezza e capacità di generalizzazione.
 
