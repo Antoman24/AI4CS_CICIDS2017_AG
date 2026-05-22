@@ -74,8 +74,9 @@ project/
 │   └── train_kmeans.py
 │
 
-# Risultati
+
 ```
+# Risultati
 
 Gli algoritmi supervisionati hanno ottenuto performance molto elevate sul dataset, in particolare **Random Forest**, che ha mostrato il miglior equilibrio tra accuratezza, robustezza e capacità di generalizzazione.
 
