@@ -65,11 +65,15 @@ project/
 │   ├── Tuesday-WorkingHours.pcap_ISCX.csv
 │   └── Wednesday-workingHours.pcap_ISCX.csv
 │
-├── preprocessing.py
-├── train_dt.py
-├── train_rf.py
-├── train_knn.py
-└── train_kmeans.py
+│
+│── src/
+│   ├── preprocessing.py
+│   ├── train_dt.py
+│   ├── train_rf.py
+│   ├── train_knn.py
+│   └── train_kmeans.py
+│
+
 # Risultati
 ```
 
